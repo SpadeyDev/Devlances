@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+:root {
+    --white: #ffffff;
+    --background: #0C0D13;
+    --green: #1BDA90;
+    --red: #EB4143;
+    --gray: #B4B4B4;
+    --bg-details: #16151C;
+    --purple: #8771FF;
+    --light-blue: #51FFF5;
+    --border-color: #494949;
+    --parag: 25px;
+    --title: 50px;
+    --lparag: 19px;
+    --button-text: 18px;
+    --radius: 10px;
+
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--background);
+    font-family: Poppins;
+    margin: 15px auto;
+    max-width: 1400px;
+  }
+
+
+  .btn {
+    width: 202px;
+    height: 43px;
+    border: none !important;
+    cursor: pointer !important;
+    background-color: var(--red);
+    border-radius: var(--radius);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* UI Menu */
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.text-white {
+    color: var(--white);
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Poppins;
+}
+
+nav a {
+    margin-right: 45px;
+    font-family: Poppins;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/* Section Side */
+
+#description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 0 0 0;
+    color: var(--white);
+}
+
+#description h1 {
+    font-size: var(--title);
+    margin-bottom: 1.1rem;
+}
+
+#description span {
+    color: var(--red);
+}
+
+#description p {
+    color: var(--gray);
+    font-size: var(--lparag);
+}
+
+.btn-apply {
+    border: 0.01px var(--border-color) solid;
+    border-radius: var(--radius);
+    cursor: pointer;
+    margin-top: 3rem;
+    width: 11rem;
+    height: 2.7rem;
+    color: var(--white);
+    background-color: var(--bg-details);
+    font-size: var(--button-text);
+    font-weight: 550;
+}
+
+
+
+
+/* Team Member Boxes */
+
+#teammates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 14rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--bg-details);
+    color: var(--white);
+    border-radius: var(--radius);
+    border: 1px var(--border-color) solid;
+    width: 20rem;
+    height: 20rem;
+}
+
+.social-media {
+    max-width: 2rem;
+    border-radius: var(--radius);
+    margin: 1rem 0.4rem 0 0.4rem;
+    cursor: pointer;
+}
+
+.box h1 {
+    padding-top: 1rem;
+    font-size: 22px;
+}
+
+.box h2 {
+    font-size: 18px;
+}
+
+#box-1 h2 {
+    color: var(--red);
+}
+
+#box-2 h2 {
+    color: var(--green);
+}
+
+#box-3 h2 {
+    color: var(--purple);
+}
+
+#box-4 h2 {
+    color: var(--light-blue);
+}
+
