@@ -89,13 +89,13 @@
 
 
 .background-light {
-    z-index: -1;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: -200px;
-    filter: blur(180px);
-  }
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: -300px;
+  filter: blur(180px);
+}
 
 
 /* UI Menu */
@@ -119,12 +119,18 @@ header {
 }
 
 nav a {
-    margin-right: 45px;
-    font-family: Poppins;
+  margin-left: 45px;
+  font-family: Poppins;
 }
 
 nav a:last-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+  .background-stars {
+    position: absolute;
+    z-index: -3;
+    opacity: 0.4;
 }
 
 
@@ -159,7 +165,6 @@ nav a:last-child {
     justify-content: center;
     margin-top: 5rem;
 }
-
 
 
 /* Text */
