@@ -55,10 +55,11 @@
 .background-light {
     z-index: -1;
     position: absolute;
-    top: -12rem;
-    left: 48rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
     filter: blur(180px);
-}
+  }
 
 a {
     color: var(--white);
