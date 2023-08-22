@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+
+
+
+
+:root {
+    --red: #EB4143;
+    --white: #FFFFFF;
+    --bg: #0C0D13;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: Nanum Brush Script, sans-serif;
+    width: 100%;
+    height: 98vh;
+    background-image: url(/img/left.svg), url(/img/right.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.background-stars {
+    position: absolute;
+    z-index: -3;
+}
+
+
+h1 {
+    color: var(--white);
+    font-size: 4rem;
+    margin-top: -2rem;
+}
+
+span {
+    color: var(--red);
+}
+
+
+
+
+/* homepage button */
+
+.btn {
+    padding-top: 3.3rem;
+}
+
+button {
+    cursor: pointer;
+    background: rgb(124,42,43);
+    background: linear-gradient(90deg, rgba(124,42,43,1) 0%, rgb(225, 59, 62) 60%);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1rem;
+    width: 15rem;
+    height: 3.5rem;
+    border: none;
+    font-family: Poppins, sans-serif;
+    border-radius: 15px 5px 15px 5px;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
