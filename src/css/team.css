@@ -47,6 +47,11 @@
 }
 
 
+  .background-stars {
+    position: absolute;
+    z-index: -3;
+    opacity: 0.4;
+}
 
 
 
@@ -57,7 +62,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-top: -200px;
+    margin-top: -300px;
     filter: blur(180px);
   }
 
