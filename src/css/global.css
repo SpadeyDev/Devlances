@@ -5,6 +5,7 @@
     --background: #0C0D13;
     --green: #1BDA90;
     --red: #EB4143;
+    --footer-bg: #14151F;
     --gray: #B4B4B4;
     --parag: 25px;
     --title: 50px;
@@ -24,9 +25,9 @@
 
   body {
     background-color: var(--background);
-    font-family: Poppins;
-    margin: 15px auto;
-    max-width: 1400px;
+    font-family: Poppins, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
   }
 
 
@@ -114,8 +115,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    font-family: Poppins;
+    text-align: center;
+    padding: 20px 50px 0 50px;
+    font-family: Poppins, sans-serif;
 }
 
 nav a {
@@ -455,3 +457,78 @@ justify-content: center;
 align-items: center;
 }
 
+
+
+/* Footer Style */
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  color: var(--white);
+  background-color: var(--footer-bg);
+  width: 100%;
+  height: 22rem;
+  margin-top: 12rem;
+
+}
+
+footer h2 {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding-bottom: 12px;
+}
+
+footer p, footer a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+
+
+.footer-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.footer-btn {
+  padding-bottom: 5rem;
+}
+
+.footer-btn button {
+  border: none;
+  color: var(--white);
+  background-color: var(--red);
+  width: 12rem;
+  height: 3.1rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5rem;
+}
+
+i {
+  font-size: 1.5rem;
+  color: var(--gray);
+  padding-right: 1.2rem;
+}
+
+i:hover {
+  opacity: 0.6;
+}
