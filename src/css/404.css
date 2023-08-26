@@ -72,11 +72,11 @@ button {
     border: none;
     font-family: Poppins, sans-serif;
     border-radius: 15px 5px 15px 5px;
+    transition: all 0.5s ease-out;
 }
 
 button:hover {
-    transform: translateY(-1px);
-    transition: 0.3s;
-    opacity: 0.7;
+    transform: translateY(-2px);
+    opacity: 0.6;
 }
 
