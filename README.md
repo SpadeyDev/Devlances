@@ -1,6 +1,6 @@
 # Devlances
 
-DevLances is an open source code application. Imagine a place filled with people who can help you with any issues you might get stuck on, or you can help others. You can do both at the same time. It is currently in the development stage, and if you're interested in contributing, you can read the area specified below: <br><br>
+Devlances is a web application developed to introduce new technologies and find solutions to developers' errors. Imagine a place filled with people who can help you with any issues you might get stuck on, or you can help others. You can do both at the same time. It is currently in the development stage, and if you're interested in contributing, you can read the area specified below.<br><br>
 
 ## Contribution 🎗️
 
